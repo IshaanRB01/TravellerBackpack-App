@@ -1,7 +1,5 @@
 # TravellerBackpack-App
 
-# Newsify-App
-
 Hello everyone ✨,
 
 This time I made another android application on my own. I named it as "Traveller Backpack". Baic Idea of this app is to help the tourists to feel comfortable in foreign land by helping them to easily communicate with people by scanning the images and getting the text on them and further translate them in the desired language(by default it is set to French). I also added map feature in which we can search for any place. This app works without any internet connection too.
