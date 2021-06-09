@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/scanText"
+        android:title="@string/scan"
+        android:enabled="true"
+        android:icon="@drawable/ic_scan"/>
+    <item
+        android:id="@+id/translate"
+        android:title="@string/translate"
+        android:enabled="true"
+        android:icon="@drawable/ic_translate"/>
+    <item
+        android:id="@+id/maps"
+        android:title="@string/map"
+        android:enabled="true"
+        android:icon="@drawable/ic_map"/>
+
+</menu>
