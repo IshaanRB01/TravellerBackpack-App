@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.example.travellerbackpack.databinding.ActivityMainBinding
 
-
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

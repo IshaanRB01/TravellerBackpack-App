@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment
 import com.example.travellerbackpack.databinding.FragmentScanTextBinding
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
+import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import java.io.File
 import java.io.IOException
 
@@ -38,6 +39,7 @@ class ScanTextFragment : Fragment() {
         }
 
         binding.cameraChoseBtn.setOnClickListener {
+            Log.e(this.javaClass.name,"Camera called")
             val intent = Intent(requireContext(), CameraActivity::class.java)
             startActivityForResult(intent, 123)
         }
@@ -50,7 +52,7 @@ class ScanTextFragment : Fragment() {
         val image: InputImage
         try {
             image = InputImage.fromFilePath(requireActivity(), uri)
-            val recognizer = TextRecognition.getClient()
+            val recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
             recognizer.process(image)
                 .addOnSuccessListener {
 
@@ -65,8 +67,10 @@ class ScanTextFragment : Fragment() {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 
+        Log.e(this.javaClass.name,requestCode.toString())
         if (data == null) {
             Toast.makeText(requireContext(), "No Image Selected", Toast.LENGTH_SHORT).show()
             return
