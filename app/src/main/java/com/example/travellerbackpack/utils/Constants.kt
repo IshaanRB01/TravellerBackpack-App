@@ -1,4 +1,6 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.utils
+
+import com.example.travellerbackpack.modal.Language
 
 object Constants {
     fun languageOptions(): ArrayList<Language> {

@@ -1,8 +1,12 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
+import com.example.travellerbackpack.fragments.MapsFragment
+import com.example.travellerbackpack.fragments.ScanTextFragment
+import com.example.travellerbackpack.fragments.TranslateTextFragment
+import com.example.travellerbackpack.adapter.ViewPagerAdapter
 import com.example.travellerbackpack.databinding.ActivityMainBinding
 
 @Suppress("DEPRECATION")

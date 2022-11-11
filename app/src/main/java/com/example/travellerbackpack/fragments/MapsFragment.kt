@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.fragments
 
 import android.app.Activity
 import android.content.pm.PackageManager
@@ -14,6 +14,7 @@ import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
+import com.example.travellerbackpack.R
 import com.example.travellerbackpack.databinding.FragmentMapsBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices

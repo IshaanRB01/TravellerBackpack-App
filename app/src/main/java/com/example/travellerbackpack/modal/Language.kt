@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.modal
 
 data class Language(
     val languageCode: String,

@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.activities
 
 import android.Manifest
 import android.content.Intent
@@ -15,6 +15,7 @@ import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.travellerbackpack.R
 import com.example.travellerbackpack.databinding.ActivityCameraBinding
 import com.google.common.util.concurrent.ListenableFuture
 import java.io.File

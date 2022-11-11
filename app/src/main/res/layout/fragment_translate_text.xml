@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/fragmentBackgroundColor"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <LinearLayout
         android:id="@+id/translateLinearLayout"
@@ -43,24 +44,23 @@
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:paddingBottom="20dp"
                 android:text="@string/choose_language"
-                android:textColor="@color/primaryColor"
+                android:textColor="?attr/textColor"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/translateBtn"
+                android:layout_marginEnd="10dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="6dp"
                 android:layout_weight="1"
-                android:background="@drawable/edit_text_background"
-                android:fontFamily="sans-serif"
+                android:backgroundTint="?attr/buttonBg"
                 android:gravity="center"
                 android:text="@string/translate"
                 android:textAllCaps="false"
+                android:textColor="?attr/textColor"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -79,6 +79,5 @@
             tools:ignore="TextFields" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

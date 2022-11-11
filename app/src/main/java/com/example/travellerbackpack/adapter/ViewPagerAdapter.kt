@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

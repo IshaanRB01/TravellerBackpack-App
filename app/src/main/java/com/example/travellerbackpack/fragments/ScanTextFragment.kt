@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.fragments
 
 import android.content.Intent
 import android.net.Uri
@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.travellerbackpack.activities.CameraActivity
 import com.example.travellerbackpack.databinding.FragmentScanTextBinding
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition

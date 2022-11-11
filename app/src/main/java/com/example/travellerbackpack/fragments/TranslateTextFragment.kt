@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.fragments
 
 import android.app.Activity
 import android.app.Dialog
@@ -13,8 +13,12 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.travellerbackpack.utils.Constants
+import com.example.travellerbackpack.adapter.CustomSelectLanguageAdapter
+import com.example.travellerbackpack.adapter.ISelectItem
 import com.example.travellerbackpack.databinding.DialogCustomLanguageListBinding
 import com.example.travellerbackpack.databinding.FragmentTranslateTextBinding
+import com.example.travellerbackpack.modal.Language
 import com.google.mlkit.common.model.DownloadConditions
 import com.google.mlkit.nl.languageid.LanguageIdentification
 import com.google.mlkit.nl.translate.TranslateLanguage

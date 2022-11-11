@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fragmentBackgroundColor" format="reference" />
+    <attr name="textColorAttr" format="reference" />
+    <attr name="fabButtonColor" format="reference" />
+    <attr name="bottomNavTintColor" format="reference" />
+    <attr name="bottomNavBg" format="reference" />
+    <attr name="buttonBg" format="reference" />
+</resources>

@@ -1,11 +1,11 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.travellerbackpack.modal.Language
 import com.example.travellerbackpack.databinding.ItemCustomTranslateListBinding
-
 
 class CustomSelectLanguageAdapter(
     private val context: Context,

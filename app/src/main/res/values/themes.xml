@@ -8,10 +8,19 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorOnSecondary">@color/white</item>
+
+        <item name="fragmentBackgroundColor">@color/backgroundColorLight</item>
+        <item name="textColor">@color/textColorLight</item>
+        <item name="fabButtonColor">@color/primaryColor</item>
+        <item name="bottomNavTintColor">@color/textColorLight</item>
+        <item name="bottomNavBg">@color/primaryColor</item>
+        <item name="buttonBg">@color/primaryColor</item>
+
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryColor</item>
         <!-- Customize your theme here. -->
     </style>
+
 
     <style name="Theme.TravellerBackpack.NoActionBar">
         <item name="windowNoTitle">true</item>

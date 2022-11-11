@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".activities.MainActivity">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/flFragment"
@@ -14,16 +13,17 @@
         app:layout_constraintBottom_toTopOf="@id/bottomNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        app:backgroundColor="@color/primaryColor"
+        app:backgroundColor="?attr/bottomNavBg"
         app:duration="500"
+        app:textColor="?attr/textColor"
         app:iconSize="24dp"
-        app:iconTintActive="@color/black"
+        app:iconTintActive="?attr/bottomNavTintColor"
         app:indicatorRadius="12dp"
         app:itemPadding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"

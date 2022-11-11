@@ -1,4 +1,4 @@
-package com.example.travellerbackpack
+package com.example.travellerbackpack.activities
 
 import android.content.Intent
 import android.os.Build
@@ -9,6 +9,7 @@ import android.view.WindowInsets
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
+import com.example.travellerbackpack.R
 
 import com.example.travellerbackpack.databinding.ActivitySplashBinding
 
